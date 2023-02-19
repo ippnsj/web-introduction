@@ -1,0 +1,135 @@
+body {
+    background-color: #c0c0c0;
+    font-family: 'Hi Melody', cursive;
+    font-size: x-large;
+}
+.container {
+    margin: 30px;
+    background-color: white;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+h1 {
+    text-align: center;
+    margin-top: 0;
+}
+#about-me {
+    margin: auto;
+    width: fit-content;
+}
+
+#table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+.table-row {
+    border-top: 1px solid black;
+}
+th {
+    padding: 15px;
+}
+
+.movie-rank {
+    width: 5%;
+    text-align: center;
+    border-right: 1px solid black;
+}
+.movie-title {
+    width: 200px;
+    text-align: center;
+    padding: 0 20px 0 20px;
+    border-right: 1px solid black;
+}
+.movie-poster {
+    text-align: center;
+    border-right: 1px solid black;
+}
+.movie-poster-td {
+    padding: 50px;
+}
+.movie-poster > img {
+    width: 250px;
+}
+.movie-poster > img:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.movie-summary {
+    width: 700px;
+    border-right: 1px solid black;
+    padding: 0 20px 0 20px;
+}
+.movie-link {
+    width: 100px;
+    text-align: center;
+}
+
+#form-body {
+    width: fit-content;
+    margin: auto;
+}
+#input-name {
+    width: 700px;
+    height: 30px;
+    margin-left: 10px;
+}
+.movie-selection {
+    margin-right: 20px;
+}
+#buttons {
+    text-align: right;
+    margin: 0;
+}
+#buttons > input {
+    margin-right: 15px;
+}
+
+.w-btn {
+    position: relative;
+    border: none;
+    display: inline-block;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-family: "paybooc-Light", sans-serif;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.25s;
+}
+.w-btn:hover {
+    letter-spacing: 2px;
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.w-btn-gra1 {
+    background: linear-gradient(-45deg, #33ccff 0%, #ff99cc 100%);
+    color: white;
+}
+.w-btn-gra-anim {
+    background-size: 400% 400%;
+    animation: gradient1 5s ease infinite;
+}
+
+@keyframes gradient1 {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+#guest-book-container {
+    width: 800px;
+    max-height: 600px;
+    padding: 10px;
+    background-color: black;
+    display: none;
+    overflow-y: scroll;
+}
